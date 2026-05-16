@@ -13,4 +13,4 @@ if (!fs.existsSync(indexPath)) {
 fs.copyFileSync(indexPath, notFoundPath);
 fs.writeFileSync(noJekyllPath, "");
 
-console.log(JSON.stringify({ index: indexPath, notFound: notFoundPath }, null, 2));
+console.log("Generated dist/client/index.html and dist/client/404.html");
