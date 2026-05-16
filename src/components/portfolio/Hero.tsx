@@ -107,17 +107,17 @@ export function Hero() {
             href="#contact"
             className="inline-flex items-center gap-2 rounded-xl glass px-6 py-3 text-sm font-semibold hover:bg-white/10 transition-all"
           >
-            Contact Me
+            <Download size={16} /> Download CV
           </a>
         </motion.div>
-        <div className="mt-6 flex justify-center">
+        {/* <div className="mt-6 flex justify-center">
           <a
             href="#"
             className="inline-flex items-center gap-2 rounded-xl px-6 py-3 text-sm font-semibold text-muted-foreground hover:text-foreground transition-colors"
           >
             <Download size={16} /> Download CV
           </a>
-        </div>
+        </div> */}
 
         <motion.div
           initial={{ opacity: 0, y: 30 }}
