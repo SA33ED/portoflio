@@ -40,9 +40,9 @@ function Index() {
       <Navbar />
       <Hero />
       <About />
-      <Skills />
       <Experience />
       <Projects />
+      <Skills />
       <Achievements />
       <YoutubeSection />
       <Testimonials />
