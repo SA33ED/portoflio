@@ -15,6 +15,9 @@ export default defineConfig({
     base: githubPagesBasePath,
   },
   tanstackStart: {
-    server: { entry: "server" },
+    prerender: {
+      enabled: true,
+    },
+    server: { entry: "index" },
   },
 });
