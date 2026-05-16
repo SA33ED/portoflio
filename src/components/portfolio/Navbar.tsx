@@ -42,7 +42,7 @@ export function Navbar() {
           <a href="#hero" className="flex items-center gap-2 group">
             <div className="relative">
               <img
-                src={`${siteBasePath}assets/profile.jpeg`}
+                src={`${siteBasePath}assets/avatar.svg`}
                 alt="Mohammed"
                 className="h-8 w-8 rounded-lg shadow-glow object-cover"
               />
