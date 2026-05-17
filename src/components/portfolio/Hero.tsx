@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowRight, Download, Smartphone, Code2, Sparkles, Layers, Zap, Github } from "lucide-react";
+import { ArrowRight, Smartphone, Code2, Sparkles, Layers, Github, FileText, Eye } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 
 const stats = [
@@ -100,8 +100,8 @@ export function Hero() {
             href="#projects"
             className="group inline-flex items-center gap-2 rounded-xl bg-gradient-primary px-6 py-3 text-sm font-semibold text-primary-foreground shadow-glow hover:shadow-glow-accent transition-all hover:-translate-y-0.5"
           >
+            <Eye size={16} className="group-hover:translate-x-1 transition-transform" />
             View Projects
-            <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
           </a>
           <a
             href="/portfolio/Mohammed_Saeed_Flutter.pdf"
@@ -109,8 +109,8 @@ export function Hero() {
             rel="noreferrer"
             className="inline-flex items-center gap-2 rounded-xl glass px-6 py-3 text-sm font-semibold hover:bg-white/10 transition-all"
           >
-            <Download size={16} />
-            Download CV
+            Resume
+            <ArrowRight size={16} />
           </a>
         </motion.div>
 
