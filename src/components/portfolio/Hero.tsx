@@ -3,7 +3,7 @@ import { ArrowRight, Download, Smartphone, Code2, Sparkles, Layers, Zap, Github 
 import { useEffect, useRef, useState } from "react";
 
 const stats = [
-  { value: "4+", label: "Years Experience" },
+  { value: "3+", label: "Years Experience" },
   { value: "30+", label: "Projects Shipped" },
   { value: "12+", label: "Apps Published" },
   { value: "10+", label: "Happy Clients" },
@@ -104,20 +104,15 @@ export function Hero() {
             <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
           </a>
           <a
-            href="#contact"
+            href="/portfolio/Mohammed_Saeed_Flutter.pdf"
+            target="_blank"
+            rel="noreferrer"
             className="inline-flex items-center gap-2 rounded-xl glass px-6 py-3 text-sm font-semibold hover:bg-white/10 transition-all"
           >
-            <Download size={16} /> Download CV
+            <Download size={16} />
+            Download CV
           </a>
         </motion.div>
-        {/* <div className="mt-6 flex justify-center">
-          <a
-            href="#"
-            className="inline-flex items-center gap-2 rounded-xl px-6 py-3 text-sm font-semibold text-muted-foreground hover:text-foreground transition-colors"
-          >
-            <Download size={16} /> Download CV
-          </a>
-        </div> */}
 
         <motion.div
           initial={{ opacity: 0, y: 30 }}

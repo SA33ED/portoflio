@@ -1,4 +1,4 @@
-import { P as reactExports, H as jsxRuntimeExports } from "./server-C-ViMhx3.js";
+import { P as reactExports, H as jsxRuntimeExports } from "./server-yhYKxXaI.js";
 import "node:async_hooks";
 import "node:stream/web";
 import "node:stream";
@@ -8907,7 +8907,7 @@ function Navbar() {
   ] });
 }
 const stats = [
-  { value: "4+", label: "Years Experience" },
+  { value: "3+", label: "Years Experience" },
   { value: "30+", label: "Projects Shipped" },
   { value: "12+", label: "Apps Published" },
   { value: "10+", label: "Happy Clients" }
@@ -9017,11 +9017,13 @@ function Hero() {
             /* @__PURE__ */ jsxRuntimeExports.jsxs(
               "a",
               {
-                href: "#contact",
+                href: "/portfolio/Mohammed_Saeed_Flutter.pdf",
+                target: "_blank",
+                rel: "noreferrer",
                 className: "inline-flex items-center gap-2 rounded-xl glass px-6 py-3 text-sm font-semibold hover:bg-white/10 transition-all",
                 children: [
                   /* @__PURE__ */ jsxRuntimeExports.jsx(Download, { size: 16 }),
-                  " Download CV"
+                  "Download CV"
                 ]
               }
             )
